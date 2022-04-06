@@ -8,13 +8,13 @@ function ctof($value = 1):float {
     return ($value * 1.8) + 32;
 }
 // km/h to m/s
-function  kmhtoms ($km, $h) {
-    return $km * 1000 . "/". $h /3600; 
+function  kmhtoms ($km) {
+    return $km / 3.6; 
 }
 
 // km/h to knots
-function kmhtok ($km, $h) {
-    return $km/$h * 0.539957;
+function kmhtok ($km) {
+    return $km / 1.852;
 }
 
 // kg to g 
@@ -36,6 +36,9 @@ function gtokg($value = 1):float {
     $result01 = ftoc($_POST["ftoc"]);
     $result02 = ctof($_POST["ctof"]);
     
+    $result03 = kmhtoms($_POST["kmhtoms"]);
+    $result06 = kmhtoms($_POST["kmhtok"]);
+
     $result04 = kgtog($_POST["kgtog"]);
     $result05 = gtokg($_POST["gtokg"]);
 
@@ -45,9 +48,11 @@ function gtokg($value = 1):float {
     
 
 <body>
-
+    
   <?= $origF . " Fahrenheits in Celcius is " . $result01; ?><br>
   <?= $origC . " Celcius in Fahrenheit is " . $result02; ?><br>
+  <?= $origC . " Kilometers per Hour to Meters per Seconds is " . $result03; ?><br>
+  <?= $origC . " Kilometers per Hour to Knots is " . $result06; ?><br>
   <?= $origKg . " kg in grams is " . $result04; ?><br>
   <?= $origG . " grams in kg is " . $result05; ?><br>
 
