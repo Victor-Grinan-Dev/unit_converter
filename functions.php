@@ -8,13 +8,13 @@ function ctof($value):float {
     return ($value * 1.8) + 32;
 }
 // km/h to m/s
-function  kmhtoms ($km, $h) {
-    return $km * 1000 . "/". $h /3600; 
+function  kmhtoms ($km) {
+    return $km / 3.6; 
 }
 
 // km/h to knots
-function kmhtok ($km, $h) {
-    return $km/$h * 0.539957;
+function kmhtok ($km) {
+    return $km / 1.852;
 }
 
 // kg to g 
