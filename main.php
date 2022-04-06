@@ -13,12 +13,16 @@
 </head>
 <body>
     <div>
+        
+        
 
-    <form action="ftoc.php" method="post">
-        Fahrenheits to Celcius add fahrenheit: <input type="number" name="ftoc"><br> 
-        Celcius to Fahrenheit add Celcius: <input type="number" name="ctof"><br> 
-        <input type="submit">
-    </form>
+        <form action="functions01.php" method="post">
+    Fahrenheits to Celcius add fahrenheit: <input type="number" name="ftoc"><br> 
+    Celcius to Fahrenheit add Celcius: <input type="number" name="ctof"><br> 
+    Kilograms in grams add kg: <input type="number" name="kgtog"><br>
+    Grams in kg add kg <input type="number" name="gtokg"><br>
+    <input type="submit">
+  </form>
   
 
     </div>
