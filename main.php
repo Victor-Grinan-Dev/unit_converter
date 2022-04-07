@@ -1,8 +1,3 @@
-<?php
-
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,20 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
-<body>
-    <div>   
-        <form action="functions01.php" method="post">
-        Fahrenheits to Celcius add fahrenheit: <input type="number" name="ftoc"><br> 
-        Celcius to Fahrenheit add Celcius: <input type="number" name="ctof"><br> 
-        Kilometers per Hour to Meters per Seconds: <input type="number" name="kmhtoms"><br> 
-        Kilometers per Hour to Knots: <input type="number" name="kmhtok"><br> 
-        Kilograms in grams add kg: <input type="number" name="kgtog"><br>
-        Grams in kg add kg <input type="number" name="gtokg"><br>
-        <input type="submit">
-  </form>
-  
-
-    </div>
-    
-</body>
+    <body>
+        <div>   
+            <form action="functions01.php" method="post">
+                Fahrenheits to Celcius add fahrenheit: <input type="number" name="ftoc"><br> 
+                Celcius to Fahrenheit add Celcius: <input type="number" name="ctof"><br> 
+                Kilometers per Hour to Meters per Seconds: <input type="number" name="kmhtoms"><br> 
+                Kilometers per Hour to Knots: <input type="number" name="kmhtok"><br> 
+                Kilograms in grams add kg: <input type="number" name="kgtog"><br>
+                Grams in kg add kg <input type="number" name="gtokg"><br>
+                <input type="submit">
+            </form>   
+        </div>
+    </body>
 </html>
