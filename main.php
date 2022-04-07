@@ -8,15 +8,21 @@
 </head>
     <body>
         <div>   
-            <form action="functions01.php" method="post">
+            <form action="temperature.php" method="post">
                 Fahrenheits to Celcius add fahrenheit: <input type="number" name="ftoc"><br> 
                 Celcius to Fahrenheit add Celcius: <input type="number" name="ctof"><br> 
+                <input type="submit">
+            </form>   
+            <form action="speed.php" method="post">
                 Kilometers per Hour to Meters per Seconds: <input type="number" name="kmhtoms"><br> 
                 Kilometers per Hour to Knots: <input type="number" name="kmhtok"><br> 
+                <input type="submit">
+            </form> 
+            <form action="mass.php" method="post">
                 Kilograms in grams add kg: <input type="number" name="kgtog"><br>
                 Grams in kg add kg <input type="number" name="gtokg"><br>
                 <input type="submit">
-            </form>   
+            </form> 
         </div>
     </body>
 </html>
