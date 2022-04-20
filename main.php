@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title></title>
+    <title>Measurement Conversion</title>
 </head>
     <body>
-        <div class="all-elements">  
+        <div class="all-elements">
 
         <div class="banner">
             <img class="logo" src="./teamSonic.png" alt="#">
@@ -25,7 +24,7 @@
                             <input type="submit">
                     </div>
 
-                </form> 
+                </form>
 
                 <form action="ctof.php" method="post">
                     <div class="row">
@@ -73,8 +72,6 @@
                     </div>
                 </form> 
             </div>
-            
         </div>
     </body>
 </html>
-
