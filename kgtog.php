@@ -8,7 +8,8 @@
     $result04 = kgtog($_POST["kgtog"]);;
     ?>
     <body>    
-        <?= $origKg . " kg are " . $result04 . "g."; ?><br>
+        <!-- <?= $origKg . " kg are " . $result04 . "g."; ?><br> -->
+        <p><?php echo "$origKg kilograms is equivalent to $result04 grams"; ?></p>
         <a href="main.php">Go back</a>
     </body>
 </html>
